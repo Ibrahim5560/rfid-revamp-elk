@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20221108060058",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "tasks",
+  "fields": [
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Tasks (tasks) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": true,
+  "name": "Tasks",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
